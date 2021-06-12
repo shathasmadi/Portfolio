@@ -108,17 +108,17 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
+                          <span className="heading">301</span>
+                          <span className="description">Level</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
-                          <span className="description">Photos</span>
+                          <span className="heading">5</span>
+                          <span className="description">Project</span>
                         </div>
-                        <div>
+                        {/* <div>
                           <span className="heading">89</span>
                           <span className="description">Comments</span>
-                        </div>
+                        </div> */}
                       </div>
                     </Col>
                   </Row>
@@ -158,118 +158,7 @@ class Profile extends React.Component {
               </Card>
             </Container>
           </section>
-          <section>
-            <Container>
-              <Row className="justify-content-center">
-                <Col lg="12">
-                  <Row className="row-grid">
-                    <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
-                        <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                            <i className="ni ni-check-bold" />
-                          </div>
-                          <h6 className="text-primary text-uppercase">
-                            Ethar
-                          </h6>
-                          <p className="description mt-3">
-                            Ethar project created to enhance the values of cooperation and volunteering in the community by making it easier for users to donate tools, clothes, food, and electronic devices in addition to providing some services through a team of specialized volunteers, who provide services such as construction, carpentry and paint to the needy people for free.
-                          </p>
-                          <div>
-                            <Badge color="primary" pill className="mr-1">
-                              Donate
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              Services
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              Helping
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="primary"
-                            href="https://ethar-team.github.io/ethar/"
-                            target="_blank"
-                          >
-                            Visit
-                          </Button>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                    <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
-                        <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
-                          </div>
-                          <h6 className="text-success text-uppercase">
-                            301 Project placeholder
-                          </h6>
-                          <p className="description mt-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam necessitatibus eum facilis magni nesciunt corrupti, sed, unde dolor sequi quo odio saepe dicta ea doloribus eveniet officia. Eius, corrupti laboriosam.
-                          </p>
-                          <div>
-                            <Badge color="success" pill className="mr-1">
-                              business
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              vision
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              success
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                    <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
-                        <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                            <i className="ni ni-planet" />
-                          </div>
-                          <h6 className="text-warning text-uppercase">
-                            401 project placeholder
-                          </h6>
-                          <p className="description mt-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam necessitatibus eum facilis magni nesciunt corrupti, sed, unde dolor sequi quo odio saepe dicta ea doloribus eveniet officia. Eius, corrupti laboriosam.
-                          </p>
-                          <div>
-                            <Badge color="warning" pill className="mr-1">
-                              marketing
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              product
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              launch
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="warning"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                  </Row>
-                </Col>
-              </Row>
-            </Container>
-          </section>
+          
         </main>
         <SimpleFooter />
       </>
